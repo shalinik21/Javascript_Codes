@@ -13,5 +13,6 @@
 
 //--Avoid the above comparision
 
+
 //=== =>strict check
 console.log("2"===2);//false
