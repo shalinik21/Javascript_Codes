@@ -1,7 +1,7 @@
 //Stack(primitive):Copy
 //Heap(Non-primitive):Reference
 
-let myname="Shalini"
+//let myname="Shalini"
 
 let anotherName=myname
 anotherName="Shashwat"
