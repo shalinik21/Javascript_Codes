@@ -12,7 +12,6 @@ let name ="shalu"
 let age =24
 let isLoggedIn = false
 
-
 //number => 2to pow 53
 //bigint
 //String
