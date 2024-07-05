@@ -5,6 +5,7 @@ accountCity="Jaipur"
 accountState=undefined;
 
 
+
 //accountId=2345
 // TypeError: Assignment to constant variable
 console.table([accountId,accountEmail,password,accountCity,accountState])
