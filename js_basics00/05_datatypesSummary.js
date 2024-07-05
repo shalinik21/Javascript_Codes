@@ -22,7 +22,6 @@ const another_id=Symbol('123')
 // console.log(bigNumber)
 
 
-
 //#Reference type(Non-primitive)
 
 //Array,Objects,Functions
