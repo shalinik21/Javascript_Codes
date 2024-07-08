@@ -18,7 +18,7 @@ const regularUser={
     }
 }
 
-console.log(regularUser.fullname?.userfullname.firstname)
+//console.log(regularUser.fullname?.userfullname.firstname)
 
 const obj1={1:"a",2:"b"}
 const obj2={3:"c",4:"d"}
@@ -47,10 +47,55 @@ const users=[
 ]
 
 users[1].email
-console.log(tinderUser);
+//console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty("isLogged"));
+// console.log(tinderUser.hasOwnProperty("isLogged"));
+
+const course={
+    coursename:"js in hindi",
+    price:1000,
+    courseInstructor:"hitesh"
+}
+ 
+//traditional way
+//course.courseInstructor
+
+const  {courseInstructor}=course
+const  {courseInstructor:instructor}=course
+//de-structuring the object
+
+console.log(courseInstructor);
+console.log(instructor);
+
+//React
+
+// const navbar=({company})=>{
+
+//     {}=destructuring
+// }
+
+// navbar(company="shalini")
+
+
+//------------------------------------
+//------API---------------
+
+// {}=json
+
+// {
+//     name:"Shalini",
+//     coursename:"js in hindi ",
+//     price:999
+// }
+
+//API in form of arrays
+
+// [
+//     {},
+//     {},
+//     {}
+// ]
